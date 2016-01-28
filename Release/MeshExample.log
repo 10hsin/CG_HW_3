@@ -1,0 +1,26 @@
+﻿Build started 2016/1/4 下午 01:36:57.
+     1>Project "D:\石心\Academic\Computer Graphics\HW\3\HW3\MeshExample.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\石心\academic\computer graphics\hw\3\hw3\FreeImage.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>main.cpp(142): warning C4018: '<': signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\石心\Academic\Computer Graphics\HW\3\HW3\Release\MeshExample.exe" /INCREMENTAL:NO /NOLOGO glut32.lib glew32.lib FreeImage.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\石心\Academic\Computer Graphics\HW\3\HW3\Release\MeshExample.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\石心\Academic\Computer Graphics\HW\3\HW3\Release\MeshExample.lib" /MACHINE:X86 /SAFESEH Release\light.obj
+         Release\main.obj
+         Release\mesh.obj
+         Release\scene.obj
+         Release\ShaderLoader.obj
+         Release\Vector3D.obj
+         Release\view.obj
+         Generating code
+         2 of 599 functions ( 0.3%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         MeshExample.vcxproj -> D:\石心\Academic\Computer Graphics\HW\3\HW3\Release\MeshExample.exe
+     1>Done Building Project "D:\石心\Academic\Computer Graphics\HW\3\HW3\MeshExample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.03
